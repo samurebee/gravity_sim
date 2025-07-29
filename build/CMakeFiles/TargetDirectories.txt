@@ -1,0 +1,3 @@
+/Users/samuribe/Personal/gravity_sim/gravity_sim/build/CMakeFiles/gravity_sim.dir
+/Users/samuribe/Personal/gravity_sim/gravity_sim/build/CMakeFiles/edit_cache.dir
+/Users/samuribe/Personal/gravity_sim/gravity_sim/build/CMakeFiles/rebuild_cache.dir
