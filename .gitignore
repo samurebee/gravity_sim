@@ -1,0 +1,7 @@
+# Ignore compiled libraries
+dependencies/library/
+*.dylib
+*.so
+*.dll
+*.a
+*.lib
