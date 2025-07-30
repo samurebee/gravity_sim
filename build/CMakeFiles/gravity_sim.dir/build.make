@@ -72,19 +72,19 @@ include CMakeFiles/gravity_sim.dir/flags.make
 CMakeFiles/gravity_sim.dir/codegen:
 .PHONY : CMakeFiles/gravity_sim.dir/codegen
 
-CMakeFiles/gravity_sim.dir/src/main.cpp.o: CMakeFiles/gravity_sim.dir/flags.make
-CMakeFiles/gravity_sim.dir/src/main.cpp.o: /Users/samuribe/Personal/gravity_sim/gravity_sim/src/main.cpp
-CMakeFiles/gravity_sim.dir/src/main.cpp.o: CMakeFiles/gravity_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/samuribe/Personal/gravity_sim/gravity_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gravity_sim.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gravity_sim.dir/src/main.cpp.o -MF CMakeFiles/gravity_sim.dir/src/main.cpp.o.d -o CMakeFiles/gravity_sim.dir/src/main.cpp.o -c /Users/samuribe/Personal/gravity_sim/gravity_sim/src/main.cpp
+CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.o: CMakeFiles/gravity_sim.dir/flags.make
+CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.o: /Users/samuribe/Personal/gravity_sim/gravity_sim/src/gravity_sim.cpp
+CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.o: CMakeFiles/gravity_sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/samuribe/Personal/gravity_sim/gravity_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.o -MF CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.o.d -o CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.o -c /Users/samuribe/Personal/gravity_sim/gravity_sim/src/gravity_sim.cpp
 
-CMakeFiles/gravity_sim.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gravity_sim.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/samuribe/Personal/gravity_sim/gravity_sim/src/main.cpp > CMakeFiles/gravity_sim.dir/src/main.cpp.i
+CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/samuribe/Personal/gravity_sim/gravity_sim/src/gravity_sim.cpp > CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.i
 
-CMakeFiles/gravity_sim.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gravity_sim.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuribe/Personal/gravity_sim/gravity_sim/src/main.cpp -o CMakeFiles/gravity_sim.dir/src/main.cpp.s
+CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuribe/Personal/gravity_sim/gravity_sim/src/gravity_sim.cpp -o CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.s
 
 CMakeFiles/gravity_sim.dir/src/glad.c.o: CMakeFiles/gravity_sim.dir/flags.make
 CMakeFiles/gravity_sim.dir/src/glad.c.o: /Users/samuribe/Personal/gravity_sim/gravity_sim/src/glad.c
@@ -102,13 +102,13 @@ CMakeFiles/gravity_sim.dir/src/glad.c.s: cmake_force
 
 # Object files for target gravity_sim
 gravity_sim_OBJECTS = \
-"CMakeFiles/gravity_sim.dir/src/main.cpp.o" \
+"CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.o" \
 "CMakeFiles/gravity_sim.dir/src/glad.c.o"
 
 # External object files for target gravity_sim
 gravity_sim_EXTERNAL_OBJECTS =
 
-gravity_sim: CMakeFiles/gravity_sim.dir/src/main.cpp.o
+gravity_sim: CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.o
 gravity_sim: CMakeFiles/gravity_sim.dir/src/glad.c.o
 gravity_sim: CMakeFiles/gravity_sim.dir/build.make
 gravity_sim: /Users/samuribe/Personal/gravity_sim/gravity_sim/dependencies/library/libglfw.3.4.dylib

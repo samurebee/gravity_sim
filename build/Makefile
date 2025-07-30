@@ -153,29 +153,29 @@ src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gravity_sim.dir/build.make CMakeFiles/gravity_sim.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/gravity_sim.o: src/gravity_sim.cpp.o
+.PHONY : src/gravity_sim.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gravity_sim.dir/build.make CMakeFiles/gravity_sim.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/gravity_sim.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gravity_sim.dir/build.make CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.o
+.PHONY : src/gravity_sim.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/gravity_sim.i: src/gravity_sim.cpp.i
+.PHONY : src/gravity_sim.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gravity_sim.dir/build.make CMakeFiles/gravity_sim.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/gravity_sim.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gravity_sim.dir/build.make CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.i
+.PHONY : src/gravity_sim.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/gravity_sim.s: src/gravity_sim.cpp.s
+.PHONY : src/gravity_sim.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gravity_sim.dir/build.make CMakeFiles/gravity_sim.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/gravity_sim.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gravity_sim.dir/build.make CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.s
+.PHONY : src/gravity_sim.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/gravity_sim.o"
+	@echo "... src/gravity_sim.i"
+	@echo "... src/gravity_sim.s"
 .PHONY : help
 
 

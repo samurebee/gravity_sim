@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/samuribe/Personal/gravity_sim/gravity_sim/src/glad.c" "CMakeFiles/gravity_sim.dir/src/glad.c.o" "gcc" "CMakeFiles/gravity_sim.dir/src/glad.c.o.d"
-  "/Users/samuribe/Personal/gravity_sim/gravity_sim/src/main.cpp" "CMakeFiles/gravity_sim.dir/src/main.cpp.o" "gcc" "CMakeFiles/gravity_sim.dir/src/main.cpp.o.d"
+  "/Users/samuribe/Personal/gravity_sim/gravity_sim/src/gravity_sim.cpp" "CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.o" "gcc" "CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -99,7 +99,7 @@ CMakeFiles/gravity_sim.dir/src/glad.c.o: /Users/samuribe/Personal/gravity_sim/gr
   /Users/samuribe/Personal/gravity_sim/gravity_sim/dependencies/include/KHR/khrplatform.h \
   /Users/samuribe/Personal/gravity_sim/gravity_sim/dependencies/include/glad/glad.h
 
-CMakeFiles/gravity_sim.dir/src/main.cpp.o: /Users/samuribe/Personal/gravity_sim/gravity_sim/src/main.cpp \
+CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.o: /Users/samuribe/Personal/gravity_sim/gravity_sim/src/gravity_sim.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -1622,6 +1622,8 @@ CMakeFiles/gravity_sim.dir/src/main.cpp.o: /Users/samuribe/Personal/gravity_sim/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
 
+/Users/samuribe/Personal/gravity_sim/gravity_sim/src/gravity_sim.cpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h:
@@ -2264,6 +2266,8 @@ CMakeFiles/gravity_sim.dir/src/main.cpp.o: /Users/samuribe/Personal/gravity_sim/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/mem_fn.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/disjunction.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/remove_cv.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h:
@@ -2474,15 +2478,11 @@ CMakeFiles/gravity_sim.dir/src/main.cpp.o: /Users/samuribe/Personal/gravity_sim/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/ranges_fill_n.h:
 
-/Users/samuribe/Personal/gravity_sim/gravity_sim/src/main.cpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/fill.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/disjunction.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/iter_swap.h:
 

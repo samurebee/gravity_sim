@@ -100,8 +100,8 @@ CMakeFiles/gravity_sim.dir/src/glad.c.o
  /Users/samuribe/Personal/gravity_sim/gravity_sim/dependencies/include/KHR/khrplatform.h
  /Users/samuribe/Personal/gravity_sim/gravity_sim/dependencies/include/glad/glad.h
 
-CMakeFiles/gravity_sim.dir/src/main.cpp.o
- /Users/samuribe/Personal/gravity_sim/gravity_sim/src/main.cpp
+CMakeFiles/gravity_sim.dir/src/gravity_sim.cpp.o
+ /Users/samuribe/Personal/gravity_sim/gravity_sim/src/gravity_sim.cpp
  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/Availability.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/AvailabilityInternal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/AvailabilityInternalLegacy.h

@@ -13,10 +13,10 @@ link_directories(dependencies/library)
 
 # Find all .cpp files under src/ (excluding main.cpp)
 file(GLOB_RECURSE SOURCES "src/*.c*")
-list(FILTER SOURCES EXCLUDE REGEX ".*main\\.cpp$")
+list(FILTER SOURCES EXCLUDE REGEX ".*gravity_sim\\.cpp$")
 
 # Add executable from main.cpp + the other sources
-add_executable(gravity_sim src/main.cpp  ${SOURCES})
+add_executable(gravity_sim src/gravity_sim.cpp  ${SOURCES})
 
 # Link against GLFW + system frameworks (macOS style)
 target_link_libraries(gravity_sim
